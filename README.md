@@ -94,4 +94,4 @@ The bot needs the following permissions to function properly:
 ## Demo Video 🎥
 
 Watch a demo of the bot in action:
-[Demo Video Link](https://github.com/user-attachments/assets/9ac24541-a8b5-4287-8148-624d9839f554)
+https://github.com/user-attachments/assets/9ac24541-a8b5-4287-8148-624d9839f554
