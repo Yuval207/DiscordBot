@@ -23,10 +23,9 @@ A feature-rich Discord bot that handles notifications, user information, and ser
 
 Before running the bot, make sure you have:
 
-- Node.js (v16.9.0 or higher)
-- npm (Node Package Manager)
+- Python (v3.8 or higher)
 - A Discord Bot Token
-- Discord.js (v14.0.0 or higher)
+- Required Python packages (see below)
 
 ## Installation 🚀
 
@@ -36,19 +35,25 @@ git clone [your-repository-url]
 cd discord-notification-bot
 ```
 
-2. Install dependencies
+2. Set up a virtual environment (optional but recommended):
 ```bash
-npm install discord.js dotenv
+python -m venv venv
+source venv/bin/activate # On Windows: venv\Scripts\activate
 ```
 
-3. Create a `.env` file in the root directory and add your bot token:
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Create a `.env` file in the root directory and add your bot token:
 ```env
 BOT_TOKEN=your_discord_bot_token_here
 ```
 
-4. Start the bot
+5. Start the bot:
 ```bash
-node index.js
+python main.py
 ```
 
 ## Commands 🎮
@@ -76,7 +81,7 @@ node index.js
    - MESSAGE_CONTENT
    - GUILD_MEMBERS
 
-## Required Permissions 📝
+## Required Permissions 🗌
 
 The bot needs the following permissions to function properly:
 - Read Messages/View Channels
@@ -86,5 +91,7 @@ The bot needs the following permissions to function properly:
 - Read Message History
 - Add Reactions
 
+## Demo Video 🎥
 
-
+Watch a demo of the bot in action:
+[Demo Video Link](https://github.com/user-attachments/assets/9ac24541-a8b5-4287-8148-624d9839f554)
